@@ -1,0 +1,17 @@
+target/
+*.jar
+*.class
+
+.git
+.gitignore
+
+README.md
+LICENSE
+
+*.iml
+.idea/
+*.vscode/
+
+.env
+
+src/test/
