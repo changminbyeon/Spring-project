@@ -1,0 +1,12 @@
+services:
+  securewebapp:
+    build:
+      context: .
+    container_name: spring-container
+    ports:
+      - "8888:8080"
+    volumes:
+      - .:/app
+
+    stdin_open: true
+    tty: true
